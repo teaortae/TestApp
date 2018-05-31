@@ -9,9 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 object ApiClient {
-    private const val url = "http://115.21.123.108:7071/"
-    //private const val url = "http://192.168.0.15:7071/"
-
+    private const val url = "url"
     private val gson: Gson = GsonBuilder().setLenient().create()
 
     private val interceptor: HttpLoggingInterceptor = HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
