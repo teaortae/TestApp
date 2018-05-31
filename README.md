@@ -1,1 +1,1 @@
-http test app Written in kotlin using retrofit2
+http test app written in kotlin using retrofit2
